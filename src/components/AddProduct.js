@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { PencilIcon } from '@heroicons/react/20/solid';
 
 const AddProducts = () => {
   const [products, setProducts] = useState([{ id: 1, name: "", discount: "" }]);
@@ -22,12 +23,15 @@ const AddProducts = () => {
           {products.map((product) => (
             <tr key={product.id}>
               <td className="py-2">{product.id}.</td>
-              <td className="py-2">
+              <td className="py-2 flex items-center space-x-2">
+                {/* Input Field */}
                 <input
                   type="text"
                   placeholder="Select Product"
                   className="border p-2 w-full rounded"
                 />
+                {/* Pencil Icon */}
+                <PencilIcon className="h-5 w-5 text-gray-500 cursor-pointer" />
               </td>
               <td className="py-2 text-right">
                 <button
@@ -41,6 +45,7 @@ const AddProducts = () => {
           ))}
         </tbody>
       </table>
+      {/* Aligning the button to the right */}
       <div className="mt-4 flex justify-end">
         <button
           onClick={handleAddProduct}
