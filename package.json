@@ -1,6 +1,7 @@
 {
-  "name": "monk-commerce",
   "homepage": "https://pinki2citm.github.io/Monk_Commerce_Products/",
+  "name": "monk-commerce",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
