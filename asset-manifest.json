@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Monk_Commerce_Products/static/css/main.b973405b.css",
+    "main.js": "/Monk_Commerce_Products/static/js/main.e575a082.js",
+    "index.html": "/Monk_Commerce_Products/index.html",
+    "main.b973405b.css.map": "/Monk_Commerce_Products/static/css/main.b973405b.css.map",
+    "main.e575a082.js.map": "/Monk_Commerce_Products/static/js/main.e575a082.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b973405b.css",
+    "static/js/main.e575a082.js"
+  ]
+}
